@@ -9,9 +9,9 @@ bool isCycle(int src, int parent){
     vis[src] =  1;
     for(auto x: adj[src]){
         if(x!=parent){
-            return true;
+            if(vis[x]) return true;
+            return isCycle(x, src);
         } 
-        return isCycle(x, src);
     }
     return false;
 }
