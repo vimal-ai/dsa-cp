@@ -1,19 +1,19 @@
-graph
+**GRAPH** </br>
 
-A: BFS
-B: DFS
-C: Topological sort
-D: cycle detection in undirected graphs
-E: cycle detection in directed graphs
-F: connected components
-G: Bipartitle graph
-H: Disjoint set union
-I: cycle detection in undirected graph using DSU
-J: 
-K: Kruskal's Algorithm
-L: Prims Algorithm
-M: Dijkstra's Algorithm
-N: Bellman Ford Algorithm
-O: Floyd Warshall Algorithm
-P: snakes and ladders
-Q: Surrounded Region
+A: BFS </br>
+B: DFS </br>
+C: Topological sort </br>
+D: cycle detection in undirected graphs </br>
+E: cycle detection in directed graphs </br>
+F: connected components </br>
+G: Bipartitle graph </br>
+H: Disjoint set union </br>
+I: cycle detection in undirected graph using DSU </br>
+J: </br>
+K: Kruskal's Algorithm </br>
+L: Prims Algorithm </br>
+M: Dijkstra's Algorithm </br>
+N: Bellman Ford Algorithm </br>
+O: Floyd Warshall Algorithm </br>
+P: snakes and ladders </br>
+Q: Surrounded Region </br>
