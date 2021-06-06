@@ -7,7 +7,7 @@ D: cycle detection in undirected graphs </br>
 E: cycle detection in directed graphs </br>
 F: connected components </br>
 G: Bipartitle graph </br>
-H: Disjoint set union </br>
+H: Disjoint set union [https://cp-algorithms.com/data_structures/disjoint_set_union.html] </br>
 I: cycle detection in undirected graph using DSU </br>
 J: </br>
 K: Kruskal's Algorithm </br>
