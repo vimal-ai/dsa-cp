@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<vector<int>> memo = vector<vector<int>>(1002, vector<int>(1e5+2));
+vector<vector<int>> memo = vector<vector<int>>(1002, vector<int>(1e5+2, -1));
 
 bool subsetSum(int arr[], int n, int sum){
     
