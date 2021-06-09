@@ -13,6 +13,12 @@ AF. number of subset sum given diffrence <br>
 
 B. unbounded knapsack <br>
 
+BA. road cutting problem <br>
+BB. conin change problem (maximum number of ways) <br>
+BC. coin change problem (minimum number of coins) <br>
+BD. coin change problem contd. <br>
+
+
  <br>
  
 C. fibonacci <br>
