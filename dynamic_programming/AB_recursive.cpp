@@ -21,7 +21,7 @@ bool equalPartition(int N, int arr[]){
     int sum = 0;
     for(int i=0;i<N;i++) sum+=arr[i];
     
-    if(!sum%2) return 0;
+    if(sum%2) return 0;
     
     return subsetSum(arr, N, sum/2);
 //     return dp(arr, N, sum/2);
