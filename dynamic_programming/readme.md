@@ -27,7 +27,7 @@ BC. coin change problem (minimum number of coins) <br>
  <h2>D. Longest common subsequence</h2> <br>
 
 DA. longest common substring <br>
-DB. print lcs <br>
+DB. print Longest common subsequence <br>
 DC. shortest common supersequence <br>
 DD. print shortest common supersequence <br>
 DE. minimum number of insertion and deletion for converting string a to b <br>
