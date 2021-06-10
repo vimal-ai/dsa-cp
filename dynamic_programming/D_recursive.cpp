@@ -3,7 +3,7 @@ using namespace std;
 
 vector<vector<int>> memo = vector<vector<int>>(1002,vector<int>(1002, -1));
 
-int lcs(int x, int y, string s1, string s2){
+int lcs(int x, int y, string &s1, string &s2){
     if(x==0||y==0) return 0;
     if(memo[x][y] != -1) return memo[x][y];
     if(s1[x-1] == s2[y-1]){
