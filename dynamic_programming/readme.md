@@ -57,6 +57,13 @@ DO. min number of inversion in a string to make it a palindromic <br>
 
  <h2>G. matrix chain multiplication</h2> <br>
 
+GA. Printing mcm <br>
+GB. Evaluate exp to true / boolean Paranthisis <br>
+GD. min / max value of an exp <br>
+GE. palindrome partitioning <br>
+GF. scramble string <br>
+GG. Egg dropping problem <br>
+
  <br>
  
  <h2>H. DP on tree</h2> <br>
