@@ -39,7 +39,8 @@ DJ. longest palindromic subsequence <br>
 DK. longest palindromic substring <br>
 DL. count of palindromic substring <br>
 DM. min number of deletion in a string to make a palindromic <br>
-DN. min number of inversion in a string to make it a palindromic <br>
+DN. min number of insertion in a string to make a palindromic </br>
+DO. min number of inversion in a string to make it a palindromic <br>
 
 
 
