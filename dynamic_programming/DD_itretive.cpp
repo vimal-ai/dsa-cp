@@ -36,6 +36,10 @@ string scs(string a, string b){
             } 
         }
     }
+    while(i>0) c.push_back(a[i-1]); i--;
+
+    while(j>0) c.push_back(b[i-1]); j--;
+    
     reverse(c.begin(), c.end());
     return c;
 }
