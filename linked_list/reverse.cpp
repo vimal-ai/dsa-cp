@@ -36,6 +36,23 @@ void reverseList(Node* &head){
     head = pre;
 }
 
+Node* reverseListByGroup(Node* head, int k){
+    Node* pre=NULL;
+    Node* curr=head;
+    Node* next=NULL;
+    
+    int count=0;
+    while(curr!=NULL && count<k){
+        next=curr->next;
+        curr->next=pre;
+        pre=curr;
+        curr=next;
+        count++;
+    }
+    if(next!=NULL) head->next = reverseListByGroup(next, k);
+    return pre;
+}
+
 // traversal in linked list
 void travel(Node* head){
     if(head==NULL) return;
