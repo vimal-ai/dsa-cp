@@ -39,6 +39,12 @@ void insertAt(Node* head, int val, int pos){
 }
 
 // deletion in linked list
+void deleteAtHead(Node* &head){
+    Node* node = head;
+    head=head->next;
+    delete(node);
+}
+
 void deleteAtEnd(Node* head){
     
     while(head->next->next!=NULL){
