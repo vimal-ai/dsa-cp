@@ -1,3 +1,7 @@
+/*
+T = O(N+M) 
+S = O(N+M)
+*/
 Node* intersectPoint(Node* head1, Node* head2)
 {
     stack<Node*>s1;
@@ -24,4 +28,24 @@ Node* intersectPoint(Node* head1, Node* head2)
         }
         
     }return NULL;
+}
+
+/*
+T = O(N+M)
+S = O(1)
+*/
+
+int intersectPoint(Node* head1, Node* head2)
+{
+    Node* d1=head1;
+    Node* d2=head2;
+    
+    while(d1!=NULL && d2!=NULL){
+        d1=d1->next;
+        d2=d2->next;
+        if(d1==d2) return d1->data;
+        if(d1==NULL) d1 = head2;
+        if(d2==NULL) d2 = head1;
+    }
+    
 }
