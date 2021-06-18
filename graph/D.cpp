@@ -10,7 +10,7 @@ bool isCycle(int src, int parent){
     for(auto x: adj[src]){
         if(x!=parent){
             if(vis[x]) return true;
-            return isCycle(x, src);
+            eles if( isCycle(x, src) ) return true;
         } 
     }
     return false;
