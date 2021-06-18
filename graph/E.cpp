@@ -12,8 +12,8 @@ bool isCycle(int src, vector<bool>st){
         vis[src]=1;
         
         for(auto x: adj[src]){
+	    if(st[x]) return true;
             if(!vis[x] and isCycle(x, st)) return true;
-            if(st[x]) return true;
         } 
     }
     st[src] = 0;
